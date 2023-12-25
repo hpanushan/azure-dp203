@@ -7,10 +7,10 @@ namespace sqlapp.Services
     // This service will interact with our Product data in the SQL database
     public class CourseService
     {
-        private static string db_source = "azuredp203.database.windows.net";
-        private static string db_user = "azure";
-        private static string db_password = "password@123";
-        private static string db_database = "dp203";
+        private static string db_source = "db server";
+        private static string db_user = "db user";
+        private static string db_password = "db password";
+        private static string db_database = "db name";
 
         private SqlConnection GetConnection()
         {
